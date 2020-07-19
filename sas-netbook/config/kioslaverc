@@ -2,5 +2,16 @@ PersistentProxyConnection[$i]=false
 
 [Proxy Settings][$i]
 AuthMode=0
-ProxyType=4
+ProxyType=3
+# ProxyTypes:
+#
+#    0 NoProxy - No proxy is used
+#    1 ManualProxy - Proxies are manually configured
+#    2 PACProxy - A Proxy configuration URL has been given
+#    3 WPADProxy - A proxy should be automatically discovered
+#    4 EnvVarProxy - Use the proxy values set through environment variables.
+#
+#Proxy Config Script=https://admin.gymsas.de/proxy.pac
+#httpProxy=http://10.0.0.5:8080
 ReversedException=false
+
