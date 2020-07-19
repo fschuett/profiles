@@ -1,0 +1,6 @@
+PersistentProxyConnection[$i]=false
+
+[Proxy Settings][$i]
+AuthMode=0
+ProxyType=4
+ReversedException=false

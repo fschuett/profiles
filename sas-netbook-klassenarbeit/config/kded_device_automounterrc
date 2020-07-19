@@ -1,0 +1,3 @@
+[General][$i]
+AutomountEnabled=true
+AutomountUnknownDevices=true

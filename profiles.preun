@@ -1,0 +1,21 @@
+#!/bin/bash
+#
+#
+# preun.sh - to be done before deinstallation
+#
+if [ $1 -gt 0 ]; then
+    exit 0;
+fi
+
+# remove links
+PROFILEDIR=/var/lib/kde-profiles
+if [ -e "$PROFILEDIR/default" -a -L "$PROFILEDIR/default" ]; then
+    rm -f "$PROFILEDIR/default"
+fi
+
+PROFILE=/etc/kde-user-profile
+if [ -e "$PROFILE" -a -L "$PROFILE" ]; then
+    rm -f "$PROFILE"
+fi
+
+exit 0

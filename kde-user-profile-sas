@@ -1,0 +1,9 @@
+[General]
+groups=teachers
+
+[Groups]
+teachers=default,sas-teachers
+
+[Users]
+schueler=sas-netbook
+klassenarbeit=sas-netbook-klassenarbeit

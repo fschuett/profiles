@@ -1,0 +1,5 @@
+[Basic Settings]
+Start Nepomuk[$i]=false
+
+[main Settings]
+Maximum memory=20

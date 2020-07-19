@@ -1,0 +1,9 @@
+[General]
+groups=teachers
+
+[Groups]
+teachers=default,gymhim-teachers
+
+[Users]
+schueler=gymhim-netbook
+klassenarbeit=gymhim-netbook-klassenarbeit

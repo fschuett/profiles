@@ -1,0 +1,419 @@
+<!DOCTYPE xbel>
+<xbel folded="no" dbusName="konqueror" >
+  <bookmark netscapeinfo="" href="httpw://arktur:242" >
+   <title>Schulkonsole</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.gymsas.de/dokuwiki/doku.php" >
+   <title>SAS (lokal)</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="favicons/arktur" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.gymsas.de/webmail/" >
+   <title>E-Mail</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.sankt-ansgar-schule.org" >
+   <title>SAS (Internet)</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.leifiphysik.de/" >
+   <title>LEIFI_Physik</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.gymsas.de/moodle/" >
+   <title>Moodle</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+ <separator/>
+ <folder folded="no" netscapeinfo="" >
+  <title>Mathematik</title>
+  <bookmark netscapeinfo="" href="http://www.bommi2000.de/mathematik/" >
+   <title>Aufgaben</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.dynageo.de/" >
+   <title>euklid dynageo homepage</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.matheprisma.uni-wuppertal.de/index.htm" >
+   <title>MathePrisma</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.mint-hamburg.de/Handreichungen/Handreichungen-gyO.html" >
+   <title>Handreichungen Mathematik gyO</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.wiwi-treff.de/home/index.php?mainkatid=1&amp;ukatid=13&amp;sid=52&amp;artikelid=663&amp;pagenr=0" >
+   <title>Lino - lin.Optimierung</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.numerik.mathematik.uni-mainz.de/didaktikseminar/Gruppe7/einlesen.htm" >
+   <title>Lineare Optimierung</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.mathe-online.at/galerie.html" >
+   <title>Mathe-online</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.blikk.it/angebote/modellmathe/" >
+   <title>Modellieren mit Mathe Infothek</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.arndt-bruenner.de/mathe/java/newton.htm" >
+   <title>Das Newton-Verfahren</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.advanced-planning.de/advancedplanning-213.htm" >
+   <title>Standard-Solver</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.geogebra.org/de/examples/funktion_steigung/funktion_steigung1.html" >
+   <title>GeoGebra - Dynamisches Arbeitsblatt</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.blikk.it/angebote/primarmathe/medio.htm" >
+   <title>MatheÜberall - Sek I</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.hupfeld-software.de/download.php?file=17" >
+   <title>Dynasys20</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://zope.schulnetz.hamm.de:9673/modsim/download/handbuch.pdf" >
+   <title>Dynasys-Handbuch</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.learn-line.nrw.de/angebote/modell/modlist.htm" >
+   <title>Modellierung und Simulation - Biologie</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+ </folder>
+ <folder folded="no" netscapeinfo="" >
+  <title>Physik</title>
+  <bookmark netscapeinfo="" href="http://www.izu.bayern.de/faq/detail_faq.php?ID=202&amp;kat=5&amp;th=3&amp;sub=1&amp;sub_sub=1" >
+   <title>CO2-Bilanz</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.co2-handel.de/article311_0.html" >
+   <title>CO2-Handel.de - Das Info-Portal zum Emissionshandel und Klimaschutz</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.schule-bw.de/unterricht/faecher/physik/mess/soundkarte" >
+   <title>Messungen mit der Soundkarte</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.hamburger-bildungsserver.de/index.phtml?site=faecher.physik" >
+   <title>HBS - Hamburger Bildungsserver Physik</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.autenrieths.de/links/linkphys.htm#Experimente" >
+   <title>2008 Links: Physikunterricht, Experimente und Zaubertricks / Physik</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://leifi.physik.uni-muenchen.de/web_ph08/heimversuche/pasteflasche8/pascalfontaene.htm" >
+   <title>Plasteflaschenexperimente</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.gymmelk.ac.at/nus/physik/applets/index.php" >
+   <title>Physik im Schulweb</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.br-online.de/br-alpha/alpha-centauri/index.xml" >
+   <title>BR-alpha</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.cip.physik.uni-muenchen.de/~milq/download.html" >
+   <title>Quantenphysik</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.gymmelk.ac.at/nus/physik/applets/swing.html" >
+   <title>Schwebungen</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://frankschinski.de.regexpress.de/downloads/enbw-energytower/" >
+   <title>Teslatransformator</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://leifi.physik.uni-muenchen.de/" >
+   <title>LEIFI_Physik</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://didaktik.physik.uni-wuerzburg.de/" >
+   <title>Uni Würzburg</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://phet.colorado.edu/sims/string-wave/string-wave.swf" >
+   <title>Wellenmaschine</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.heute.de/ZDFheute/inhalt/19/0,3672,4338963,00.html?dr=1" >
+   <title>CO2 - ZDF</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.diam.unige.it/~irro/profilo1a_d.html" >
+   <title>Rauchlinien</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.aniprop.de/index.html" >
+   <title>Fleigen</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://saevert.de/" >
+   <title>Naturgewalten</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://web.uni-frankfurt.de/fb13/didaktik/pagesK/html/unterrichtsreihe.html" >
+   <title>Wirbel</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.solar.ifa.hawaii.edu/tropical/tropical.html" >
+   <title>Hurricanes</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+ </folder>
+ <folder folded="no" netscapeinfo="" >
+  <title>Schnellsuche</title>
+  <bookmark netscapeinfo="" href="http://www.pohlw.de/lernen/kurs/index.htm" >
+   <title>Das Lernen lernen</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.canoo.net/services/GermanSpellingChecker/Controller" >
+   <title>Deutsches Wörterbuch</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.google.de/search?&amp;q=%25s&amp;ie=iso-8859-1&amp;hl=de&amp;meta=lr%3Dlang_de" >
+   <title>Google Quicksearch</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://dict.leo.org/?lp=ende&amp;lang=de&amp;agent=firefox-de&amp;search=%25s" >
+   <title>LEO Deutsch-Englisches Wörterbuch</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://www.lehrer-online.de/lerntagebuch.php" >
+   <title>Lerntagebuch</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://leifi.physik.uni-muenchen.de/seiten/wiemanlernt.htm" >
+   <title>Wie man lernt</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark netscapeinfo="" href="http://de.wikipedia.org/wiki/Spezial:Search?search=%25s" >
+   <title>Wikipedia Quicksearch</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+ </folder>
+ <folder folded="no" netscapeinfo="" >
+  <title>Musik</title>
+  <bookmark netscapeinfo="" href="http://ingeb.org/Volksong.html" >
+   <title>Volkslieder</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+ </folder>
+ <folder folded="no" netscapeinfo="" >
+  <title>Graphik</title>
+  <bookmark netscapeinfo="" href="http://picasa.google.de/intl/de/#utm_source=de-all-more&amp;utm_campaign=de-pic&amp;utm_medium=et" >
+   <title>Picasa</title>
+   <info>
+    <metadata owner="http://freedesktop.org" >
+     <bookmark:icon name="text-html" />
+    </metadata>
+   </info>
+  </bookmark>
+ </folder>
+</xbel>

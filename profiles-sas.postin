@@ -1,0 +1,88 @@
+#!/bin/bash
+#
+#
+# postin.sh - to be done after extraction
+#
+# fschuett - 2013-2017
+#
+SCHULE=sas
+DISABLE_UPDATES=yes
+if [ -n "$DISABLE_UPDATES" ]; then
+# update scripts KDE3,4,5 need to be disabled.
+# KDE5
+ KDEDIR=/usr/share
+ if [ -d "$KDEDIR/kconf_update" ]; then
+    mkdir -p $KDEDIR/kconf_update_no
+    if [ `ls $KDEDIR/kconf_update/* &> /dev/null` ]; then
+	mv -f $KDEDIR/kconf_update/* $KDEDIR/kconf_update_no
+    fi
+ fi
+ KDEDIR=/usr/share/kde4
+ if [ -d "$KDEDIR/apps/kconf_update" ]; then
+    mkdir -p $KDEDIR/apps/kconf_update_no
+    if [ `ls $KDEDIR/apps/kconf_update/* &> /dev/null` ]; then
+	mv -f $KDEDIR/apps/kconf_update/* $KDEDIR/apps/kconf_update_no
+    fi
+ fi
+ KDEDIR=/opt/kde3/share
+ if [ -d "$KDEDIR/apps/kconf_update" ]; then
+    mkdir -p $KDEDIR/apps/kconf_update_no
+    if [ `ls $KDEDIR/apps/kconf_update/* &> /dev/null` ]; then
+	mv -f $KDEDIR/apps/kconf_update/* $KDEDIR/apps/kconf_update_no
+    fi
+ fi
+fi
+
+#
+# use default profile
+#
+PROFILEDIR=/var/lib/kde-profiles
+if [ -d "$PROFILEDIR" ]; then
+    PWD=`pwd`
+    cd "$PROFILEDIR"
+    if [ -e default.${SCHULE} -a -d default.${SCHULE} ]; then
+	[ -e default -a -d default ] && rm -rf default
+	[ -e default -a -L default ] && rm -f default
+	ln -sf default.${SCHULE} default
+    fi
+    cd "$PWD"
+fi
+
+PROFILE=/etc/kde-user-profile
+[ -e "$PROFILE" ] && rm -f "$PROFILE"
+ln -sf "$PROFILE-${SCHULE}" "$PROFILE"
+
+#
+# change kde5rc to use profiles
+# only for installation, not for update
+#
+if [ "$1" > "0" ]; then
+  FILE=/etc/kde5rc
+  if [ -f $FILE ]; then
+    cp $FILE $FILE.orig
+  fi
+  cat << EOF >$FILE
+[Directories]
+prefixes=/etc/xdg/
+dir_locale=/usr/share/locale-bundle
+dir_html=/usr/share/doc-bundle
+kioskAdmin=root:
+profileDirsPrefix=/var/lib/kde-profiles/
+userProfileMapFile=/etc/kde-user-profile
+
+[Directories-default]
+prefixes=/var/lib/kde-profiles/default/
+
+[Directories-${SCHULE}-teachers]
+prefixes=/var/lib/kde-profiles/${SCHULE}-teachers/
+
+[Directories-${SCHULE}-netbook]
+prefixes=/var/lib/kde-profiles/${SCHULE}-netbook/
+
+[Directories-${SCHULE}-netbook-klassenarbeit]
+prefixes=/var/lib/kde-profiles/${SCHULE}-netbook-klassenarbeit/
+
+EOF
+fi
+
+exit 0

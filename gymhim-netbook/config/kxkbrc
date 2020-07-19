@@ -1,0 +1,13 @@
+[Layout]
+DisplayNames=,dea
+LayoutList=de(nodeadkeys),de
+LayoutLoopCount=-1
+Model=pc101
+ResetOldOptions=false
+ShowFlag=false
+ShowLabel=true
+ShowLayoutIndicator=true
+ShowSingle=false
+SwitchMode=Global
+Use=true
+

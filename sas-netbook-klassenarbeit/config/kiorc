@@ -1,0 +1,3 @@
+[Confirmations]
+ConfirmDelete[$i]=true
+ConfirmTrash[$i]=false

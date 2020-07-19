@@ -1,0 +1,4 @@
+MaxCacheAge[$i]=
+MaxCacheSize[$i]=0
+UseCache[$i]=false
+cache[$i]=Refresh

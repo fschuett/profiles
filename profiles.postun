@@ -1,0 +1,48 @@
+#!/bin/bash
+#
+#
+# postun.sh - to be done after deinstallation
+#
+if [ $1 -gt 0 ]; then
+    exit 0;
+fi
+
+# fschuett - 2009-2017
+# update scripts kconf_update need to be reenabled for KDE3,4,5.
+#KDE5
+KDEDIR=/usr/share
+if [ -d "$KDEDIR/kconf_update_no" ]; then
+    mkdir -p $KDEDIR/kconf_update
+    mv -f $KDEDIR/kconf_update_no/* $KDEDIR/kconf_update
+    rm -rf $KDEDIR/kconf_update_no
+fi
+KDEDIR=/usr/share/kde4
+if [ -d "$KDEDIR/apps/kconf_update_no" ]; then
+    mkdir -p $KDEDIR/apps/kconf_update
+    mv -f $KDEDIR/apps/kconf_update_no/* $KDEDIR/apps/kconf_update
+    rm -rf $KDEDIR/apps/kconf_update_no
+fi
+KDEDIR=/opt/kde3/share
+if [ -d "$KDEDIR/apps/kconf_update_no" ]; then
+    mkdir -p $KDEDIR/apps/kconf_update
+    mv -f $KDEDIR/apps/kconf_update_no/* $KDEDIR/apps/kconf_update
+    rm -rf $KDEDIR/apps/kconf_update_no
+fi
+
+#
+# change kde5rc to not use profiles
+#
+FILE=/etc/kde5rc
+if [ -f $FILE.orig ]; then
+    cp $FILE.orig $FILE
+else
+    rm -rf $FILE
+cat << EOF >$FILE
+[Directories]
+prefixes=/etc/xdg/
+dir_locale=/usr/share/locale-bundle
+dir_html=/usr/share/doc-bundle
+EOF
+fi
+
+exit 0
