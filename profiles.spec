@@ -11,7 +11,6 @@ Packager:      fschuett
 Distribution:  openSUSE Linux
 Prefix:        /var/lib/kde-profiles
 Url:           http://www.kdekiosk.org
-Provides:      profiles
 
 
 %description
@@ -20,7 +19,6 @@ Benutzerprofile für openSUSE Linux mit KDE >= %{version}
 %package gymhim
 Summary:       Benutzerprofileinstellungen für das Gymnasium Himmelsthür
 BuildArch:     noarch
-Provides:      profiles-gymhim
 Requires:      schule-kde >= %{version} schule-kde-gymhim >= %{version}
 
 %description gymhim
@@ -30,7 +28,6 @@ mit KDE >= %{version}
 %package sas
 Summary: Benutzerprofileinstellungen für die Sankt-Ansgar-Schule
 BuildArch:     noarch
-Provides:      profiles-sas
 Requires:      schule-kde >= %{version} schule-kde-sas >= %{version}
 
 %description sas
