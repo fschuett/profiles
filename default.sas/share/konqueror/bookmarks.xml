@@ -1,22 +1,22 @@
 <!DOCTYPE xbel>
 <xbel folded="no" dbusName="konqueror" >
-  <bookmark netscapeinfo="" href="httpw://arktur:242" >
-   <title>Schulkonsole</title>
+  <bookmark netscapeinfo="" href="https://admin.gymsas.de" >
+   <title>Admin</title>
    <info>
     <metadata owner="http://freedesktop.org" >
      <bookmark:icon name="text-html" />
     </metadata>
    </info>
   </bookmark>
-  <bookmark netscapeinfo="" href="http://www.gymsas.de/dokuwiki/doku.php" >
-   <title>SAS (lokal)</title>
+  <bookmark netscapeinfo="" href="http://wiki.gymsas.de/" >
+   <title>SAS Wiki</title>
    <info>
     <metadata owner="http://freedesktop.org" >
      <bookmark:icon name="favicons/arktur" />
     </metadata>
    </info>
   </bookmark>
-  <bookmark netscapeinfo="" href="http://www.gymsas.de/webmail/" >
+  <bookmark netscapeinfo="" href="http://horde.gymsas.de/" >
    <title>E-Mail</title>
    <info>
     <metadata owner="http://freedesktop.org" >
@@ -40,7 +40,7 @@
     </metadata>
    </info>
   </bookmark>
-  <bookmark netscapeinfo="" href="http://www.gymsas.de/moodle/" >
+  <bookmark netscapeinfo="" href="http://moodle.gymsas.de/" >
    <title>Moodle</title>
    <info>
     <metadata owner="http://freedesktop.org" >
