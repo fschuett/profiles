@@ -7,13 +7,6 @@ Release:       1
 License:       GPL
 Group:         application
 Source:        %{name}-%{version}.tar.gz
-Source1:       kde-user-profile-gymhim
-Source2:       kde-user-profile-sas
-Source3:       %{name}-gymhim.postin
-Source4:       %{name}-sas.postin
-Source5:       %{name}.postun
-Source9:       %{name}.preun
-Source20:      zzz-kde-user-profile.sh
 Packager:      fschuett
 Distribution:  openSUSE Linux
 Prefix:        /var/lib/kde-profiles
@@ -47,35 +40,33 @@ mit KDE >= %{version}
 %prep
 %setup -q
 
-cp %{SOURCE3} %{SOURCE4} %{SOURCE5} %{SOURCE9} %{_builddir}
-
 %build
 # nichts zu tun
 
 %install
 mkdir -p %{buildroot}%{prefix}
-cp -aR  %{_builddir}/%{name}-%{version}/* %{buildroot}%{prefix}
-install -D %{SOURCE1} %{buildroot}/etc/kde-user-profile-gymhim
-install -D %{SOURCE2} %{buildroot}/etc/kde-user-profile-sas
-install -D %{SOURCE20} %{buildroot}/etc/profile.d/zzz-kde-user-profile.sh
+for d in $(ls -d); do
+  mkdir -p %{buildroot}%{prefix}/$d
+  cp -aR  $d/* %{buildroot}%{prefix}/$d
+done
 
-%post gymhim -f ../%{name}-gymhim.postin
+install -D kde-user-profile-gymhim %{buildroot}/etc/kde-user-profile-gymhim
+install -D kde-user-profile-sas %{buildroot}/etc/kde-user-profile-sas
+install -D zzz-kde-user-profile.sh %{buildroot}/etc/profile.d/zzz-kde-user-profile.sh
 
-%post sas -f ../%{name}-sas.postin
+%post gymhim -f %{name}-gymhim.postin
 
-%preun gymhim -f ../%{name}.preun
+%post sas -f %{name}-sas.postin
 
-%preun sas -f ../%{name}.preun
+%preun gymhim -f %{name}.preun
 
-%postun gymhim -f ../%{name}.postun
+%preun sas -f %{name}.preun
 
-%postun sas -f ../%{name}.postun
+%postun gymhim -f %{name}.postun
+
+%postun sas -f %{name}.postun
 
 %clean
-rm -f %{_builddir}/%{name}-gymhim.postin
-rm -f %{_builddir}/%{name}-sas.postin
-rm -f %{_builddir}/%{name}.postun
-rm -f %{_builddir}/%{name}.preun
 
 %files
 %defattr(644,root,root,0755)
