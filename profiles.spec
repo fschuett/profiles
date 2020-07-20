@@ -67,7 +67,7 @@ install -D zzz-kde-user-profile.sh %{buildroot}/etc/profile.d/zzz-kde-user-profi
 
 %files
 %defattr(644,root,root,0755)
-/etc
+/etc/profile.d
 /var/lib/kde-profiles
 
 %files gymhim
