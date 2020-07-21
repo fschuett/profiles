@@ -1,8 +1,9 @@
 [General]
-groups=teachers
+groups=teachers,students
 
 [Groups]
 teachers=default,gymhim-teachers
+students=default
 
 [Users]
 schueler=gymhim-netbook
