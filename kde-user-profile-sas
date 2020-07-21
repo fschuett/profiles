@@ -1,8 +1,9 @@
 [General]
-groups=teachers
+groups=teachers,students
 
 [Groups]
 teachers=default,sas-teachers
+students=default
 
 [Users]
 schueler=sas-netbook
