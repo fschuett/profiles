@@ -1,8 +1,6 @@
 [General]
 confirmLogout=false
 excludeApps[$i]=/opt/SMART Technologies/SMART Product Drivers/bin/.SMARTBoardService_elf,/opt/SMART Technologies/SMART Product Drivers/bin/.SMART Board Tools_elf,/opt/SMART Technologies/SMART Product Drivers/bin/.Marker_elf,/opt/SMART Technologies/SMART Product Drivers/bin/.FloatingTools_elf,/usr/bin/klassenarbeitwaechter
-loginMode[$i]=default
+loginMode[$i]=restorePreviousLogout
 offerShutdown[$i]=true
-screenCount=1
 shutdownType[$i]=2
-

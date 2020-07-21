@@ -1,2 +1,3 @@
-[CloudSync]
-accessKWallet=false
+[Cache]
+proxyAuth=true
+proxyUrl=proxy.gymhim.de

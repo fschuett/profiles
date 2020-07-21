@@ -6,7 +6,7 @@ value=100
 
 [AC][HandleButtonEvents]
 lidAction=64
-powerButtonAction=8
+powerButtonAction[$i]=8
 
 [Battery]
 icon=battery-060
@@ -22,7 +22,7 @@ idleTime=600000
 
 [Battery][HandleButtonEvents]
 lidAction=64
-powerButtonAction=8
+powerButtonAction[$i]=8
 
 [LowBattery]
 icon=battery-low
@@ -38,4 +38,4 @@ idleTime=60000
 
 [LowBattery][HandleButtonEvents]
 lidAction=64
-powerButtonAction=8
+powerButtonAction[$i]=8
