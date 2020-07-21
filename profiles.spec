@@ -1,6 +1,6 @@
 Name:          profiles
 Summary:       Benutzerprofile
-Requires:      kdebase4-runtime plasma5-workspace plasma5-defaults-openSUSE
+Requires:      kdebase4-runtime plasma5-workspace plasma5-defaults-openSUSE schule-kde >= %{version}
 BuildArch:     noarch
 Version:       5.18
 Release:       1
@@ -19,7 +19,7 @@ Benutzerprofile für openSUSE Linux mit KDE >= %{version}
 %package gymhim
 Summary:       Benutzerprofileinstellungen für das Gymnasium Himmelsthür
 BuildArch:     noarch
-Requires:      schule-kde >= %{version} schule-kde-gymhim >= %{version}
+Requires:      profiles = %{version} schule-kde >= %{version} schule-kde-gymhim >= %{version}
 
 %description gymhim
 Benutzerprofile am Gymnasium Himmelsthuer für openSUSE Linux
@@ -28,7 +28,7 @@ mit KDE >= %{version}
 %package sas
 Summary: Benutzerprofileinstellungen für die Sankt-Ansgar-Schule
 BuildArch:     noarch
-Requires:      schule-kde >= %{version} schule-kde-sas >= %{version}
+Requires:      profiles = %{version} schule-kde >= %{version} schule-kde-sas >= %{version}
 
 %description sas
 Benutzerprofile an der Sankt-Ansgar-Schule für openSUSE Linux
