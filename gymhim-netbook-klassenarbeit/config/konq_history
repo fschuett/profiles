@@ -2,5 +2,5 @@
 CompletionItems=unused
 
 [Location Bar]
-ComboContents[$e]=http://www.gymhim.de/dokuwiki/doku.php
-ComboIconCache[$e]=http://www.gymhim.de/dokuwiki/doku.php,text-html
+ComboContents[$e]=http://wiki.gymhim.de
+ComboIconCache[$e]=http://wiki.gymhim.de,text-html

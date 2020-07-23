@@ -18,6 +18,9 @@ value=100
 [Battery][DPMSControl]
 idleTime=300
 
+[Battery][DimDisplay]
+idleTime=600
+
 [Battery][HandleButtonEvents]
 lidAction=64
 powerButtonAction[$i]=2
