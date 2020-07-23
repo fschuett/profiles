@@ -1,7 +1,8 @@
 PersistentProxyConnection=false
+ProxyUrlDisplayFlags=0
 
 [Proxy Settings]
 Proxy Config Script=http://admin/proxy.pac
-ProxyType=2
+ProxyType=3
 ReversedException=false
 socksProxy=

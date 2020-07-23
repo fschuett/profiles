@@ -5,8 +5,8 @@ AutomaticDetectionLanguage=1
 Number of Closed Windows=1
 
 [UserSettings]
-HomeURL[$i]=https://wiki.gymhim.de
-StartURL[$i]=https://wiki.gymhim.de
+HomeURL=https://wiki.gymhim.de
+StartURL=konq:blank
 
 [Reusing]
 AlwaysHavePreloaded[$i]=false
