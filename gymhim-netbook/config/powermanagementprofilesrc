@@ -5,9 +5,9 @@ icon=battery-charging
 value=100
 
 [AC][HandleButtonEvents]
-powerButtonAction[$i]=2
 lidAction=64
 triggerLidActionWhenExternalMonitorPresent=false
+powerButtonAction[$i]=2
 
 [Battery]
 icon=battery-060
@@ -18,10 +18,13 @@ value=100
 [Battery][DPMSControl]
 idleTime=300
 
+[Battery][DimDisplay]
+idleTime=600
+
 [Battery][HandleButtonEvents]
 lidAction=64
-powerButtonAction[$i]=2
 triggerLidActionWhenExternalMonitorPresent=false
+powerButtonAction[$i]=2
 
 [LowBattery]
 icon=battery-low
@@ -37,5 +40,5 @@ idleTime=60000
 
 [LowBattery][HandleButtonEvents]
 lidAction=64
-powerButtonAction[$i]=2
 triggerLidActionWhenExternalMonitorPresent=false
+powerButtonAction[$i]=2

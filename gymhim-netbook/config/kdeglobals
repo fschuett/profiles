@@ -1,7 +1,7 @@
 [KDE Action Restrictions][$i]
-switch_user=false
-lock_screen=false
-start_new_session=false
+action/switch_user=false
+action/lock_screen=false
+action/start_new_session=false
 action/sharefile=false
 action/lock_screen=false
 

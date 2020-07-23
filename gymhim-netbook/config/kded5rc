@@ -1,0 +1,5 @@
+[Module-baloosearchmodule]
+autoload[$i]=true
+
+[Module-device_automounter]
+autoload[$i]=true
