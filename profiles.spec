@@ -4,7 +4,7 @@ Requires:      kdebase4-runtime plasma5-workspace plasma5-defaults-openSUSE schu
 BuildArch:     noarch
 Version:       5.18
 Release:       1
-License:       GPL
+License:       GPL-3.0-or-later
 Group:         application
 Source:        %{name}-%{version}.tar.gz
 Packager:      fschuett
