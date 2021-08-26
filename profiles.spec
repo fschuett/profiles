@@ -1,6 +1,6 @@
 Name:          profiles
 Summary:       Benutzerprofile
-Requires:      kdebase4-runtime plasma5-workspace plasma5-defaults-openSUSE schule-kde >= %{version}
+Requires:      plasma5-workspace plasma5-defaults-openSUSE schule-kde >= %{version}
 BuildArch:     noarch
 Version:       5.18
 Release:       1
